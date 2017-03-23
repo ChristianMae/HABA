@@ -53,7 +53,7 @@
   </header>
 
 <form style="text-align:left;" >
- To: <input name="change" type="text" id ="change" oninput ="lengthConverter(this.value)" onchange="lengthConverter(this.value)"/>
+ FROM: <input name="change" type="text" id ="change" oninput ="lengthConverter(this.value)" onchange="lengthConverter(this.value)"/>
 </form>
 
 <form id="unitConversion" style="text-align:center; margin-top: -50px;">
@@ -117,7 +117,7 @@
    
 </form>
 <form style="text-align: right; margin-top: -50px;" >
- From: <input name="unitConvert" type="text" id="unitConvert" align="right" readonly/>
+  TO: <input name="unitConvert" type="text" id="unitConvert" align="right" readonly/>
 </form>
 
 </div>

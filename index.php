@@ -176,11 +176,15 @@ var units = {
     'milesToKilometers': 1.6093
     };
     function lengthConverter(valNum) {
-        var unitSelect = document.getElementById('unit');
-        var num = parseFloat(valNum);
-        var multiplier = units[unitSelect.value];
-        var result = num*multiplier;
-        document.getElementById('unitConvert').value = result;
+        if(valNum){
+          var unitSelect = document.getElementById('unit');
+          var num = parseFloat(valNum);
+          var multiplier = units[unitSelect.value];
+          var result = num*multiplier;
+          document.getElementById('unitConvert').value = result;
+        } else {
+          document.getElementById('unitConvert').value = '';
+        } 
     };
 </script>
 
@@ -214,8 +218,8 @@ var units = {
 
     <div class="w3-section">
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Davao City, Philippines</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 09759722522</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: Christianmae041997@gmail.com</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 09165637099</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> dino_6968@yahoo.com</p>
     </div>
     </form>
   <!-- End Contact Section -->
@@ -223,8 +227,7 @@ var units = {
   
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-text-indigo"><a href="https://www.facebook.com/christianmae.mendez"></a></i>
-    <i class="fa fa-twitter w3-hover-text-light-blue"><a href="https://twitter.com/Maayuung"></a></i>
+    <i class="fa fa-facebook-official w3-hover-text-indigo"><a href="https://www.facebook.com/dino.delcorro"></a></i>
     <p class="w3-medium">HA-BA © Copyright 2017 </a></p>
   <!-- End footer -->
   </footer>

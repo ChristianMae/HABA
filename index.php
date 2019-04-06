@@ -198,8 +198,7 @@ var units = {
   <br>
   <br>
   <p>
-  HA-BA is a Length Converter Website made with regards to the completion of our Project in Cloud Computing as Software as a Service. This is to be deployed on an internet hosting service, like Microsoft Azure, 
-  Heroku and etc. One of the best option to use in deploying my site is Heroku. HA-BA is a unit converter specified only to conversion of length, to convert length from one unit to another: multiply by the correct number. This length converter Website only offers limited unit conversion as of now, like cm to feet, yard to miles, kilometer to meter, inch to yards and etc. 
+  HA-BA is a Length Converter Website, is a unit converter specified only for conversion of length, to convert length from one unit to another: multiply by the correct number. This length converter Website only offers limited unit conversion as of now, like cm to feet, yard to miles, kilometer to meter, inch to yards and etc. 
   </p>
 
   <br>
@@ -228,8 +227,7 @@ var units = {
   
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-text-indigo"><a href="https://www.facebook.com/dino.delcorro"></a></i>
-    <p class="w3-medium">HA-BA © Copyright 2017 </a></p>
+    <p class="w3-medium">HA-BA © Copyright 2019 </a></p>
   <!-- End footer -->
   </footer>
 
